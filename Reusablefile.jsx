@@ -14,11 +14,8 @@ const CreateProjectModal = ({ isOpen, onClose }) => {
       {/* Modal */}
       <div className="fixed inset-0 z-50 flex items-center justify-center">
         <div className="w-full max-w-lg rounded-xl bg-white p-6 shadow-xl animate-scaleIn">
-          
           {/* Header */}
-          <h2 className="text-xl font-semibold mb-4">
-            Create New Project
-          </h2>
+          <h2 className="text-xl font-semibold mb-4">Create New Project</h2>
 
           {/* Form */}
           <div className="space-y-4">
@@ -27,6 +24,7 @@ const CreateProjectModal = ({ isOpen, onClose }) => {
               <label className="block text-sm font-medium mb-1">
                 Project Name
               </label>
+              <p>name</p>
               <input
                 type="text"
                 placeholder="Enter project name"
@@ -78,9 +76,7 @@ const CreateProjectModal = ({ isOpen, onClose }) => {
             >
               Cancel
             </button>
-            <button
-              className="rounded-md bg-indigo-600 px-4 py-2 text-sm text-white hover:bg-indigo-700"
-            >
+            <button className="rounded-md bg-indigo-600 px-4 py-2 text-sm text-white hover:bg-indigo-700">
               Create Project
             </button>
           </div>
@@ -91,13 +87,6 @@ const CreateProjectModal = ({ isOpen, onClose }) => {
 };
 
 export default CreateProjectModal;
-
-
-
-
-
-
-
 
 // import { useState } from "react";
 // import CreateProjectModal from "./CreateProjectModal";
