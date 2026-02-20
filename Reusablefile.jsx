@@ -24,7 +24,6 @@ const CreateProjectModal = ({ isOpen, onClose }) => {
               <label className="block text-sm font-medium mb-1">
                 Project Name
               </label>
-              <p>name</p>
               <input
                 type="text"
                 placeholder="Enter project name"
