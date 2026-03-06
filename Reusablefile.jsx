@@ -32,9 +32,6 @@ const CreateProjectModal = ({ isOpen, onClose }) => {
             </div>
 
             {/* Description */}
-            <h1>hddhhd</h1>
-            <h1>hddhhd</h1>
-            <h1>hddhhd</h1>
             <div>
               <label className="block text-sm font-medium mb-1">
                 Description
