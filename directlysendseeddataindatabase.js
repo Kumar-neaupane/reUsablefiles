@@ -12,7 +12,6 @@ async function seedUsers() {
     console.log("Old users removed");
 
     const hashed = await bcrypt.hash("plainpassword", 10);
-<h1>hfhfss</h1>
     const user = await userModel.create({
       fullName: "Biplav",
       email: "biplav@example.com",
